@@ -1,0 +1,18 @@
+From: l.anderson@biotech-cambridge.co.uk
+To: orders@verderliquids.com
+Date: Wednesday 16 July 2026, 09:55
+Subject: PHP2 or PRP2 — order enquiry
+
+Hi,
+
+We're looking to order a pharmaceutical-grade centrifugal pump for a new biotech line. We're not 100% sure whether the PHP2 or PRP2 is the right fit for our application (low viscosity, around 5 cP, flow around 60 m3/h).
+
+If you can confirm the right model, we'd like to place an order for 1 unit.
+
+Delivery to: Cambridge Science Park, Cambridge CB4 0WA, UK
+Target date: mid-August 2026
+Our PO: BCL-2026-PH-019
+
+Thanks,
+Laura Anderson
+Biotech Cambridge Ltd.

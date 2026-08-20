@@ -1,0 +1,22 @@
+{
+  "source_file": "string",
+  "processed_at": "ISO 8601 datetime",
+  "extraction": {
+    "customer_name": "string or null",
+    "company_name": "string or null",
+    "product_reference": "string or array or null",
+    "quantity": "integer or null",
+    "requested_delivery_date": "string (YYYY-MM-DD) or null",
+    "delivery_address": "string or null",
+    "po_reference": "string or null",
+    "special_requirements": "string or null"
+  },
+  "order_processing": {
+    "human_review_required": "boolean",
+    "review_reason": "string or null"
+  },
+  "routing": {
+    "sales_team_flag": "boolean",
+    "sales_team_reason": "string or null"
+  }
+}

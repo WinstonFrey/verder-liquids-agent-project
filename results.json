@@ -1,0 +1,165 @@
+[
+  {
+    "source_file": "02_Email #1.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Jan Van den Berghe",
+      "company_name": "Van Belle Industries NV",
+      "product_reference": "Packo ICP2 centrifugal pump",
+      "quantity": 2,
+      "requested_delivery_date": "2026-07-28",
+      "delivery_address": "Industrieweg 14, 9000 Ghent, Belgium",
+      "po_reference": "PO-2026-0441",
+      "special_requirements": null
+    },
+    "order_processing": {
+      "human_review_required": false,
+      "review_reason": null
+    },
+    "routing": {
+      "sales_team_flag": false,
+      "sales_team_reason": null
+    }
+  },
+  {
+    "source_file": "02_Email #2.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Carlos Mendoza",
+      "company_name": "Bombas Ibérica S.L.",
+      "product_reference": [
+        "Packo NMS",
+        "Packo MWP2"
+      ],
+      "quantity": null,
+      "requested_delivery_date": "2026-08-05",
+      "delivery_address": "Polígono Industrial Norte, Calle Industria 22, 08040 Barcelona, España",
+      "po_reference": "BI-2026-0774",
+      "special_requirements": null
+    },
+    "order_processing": {
+      "human_review_required": false,
+      "review_reason": null
+    },
+    "routing": {
+      "sales_team_flag": false,
+      "sales_team_reason": null
+    }
+  },
+  {
+    "source_file": "02_Email #3.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Laura Anderson",
+      "company_name": "Biotech Cambridge Ltd.",
+      "product_reference": [
+        "PHP2",
+        "PRP2"
+      ],
+      "quantity": 1,
+      "requested_delivery_date": null,
+      "delivery_address": "Cambridge Science Park, Cambridge CB4 0WA, UK",
+      "po_reference": "BCL-2026-PH-019",
+      "special_requirements": "We're not 100% sure whether the PHP2 or PRP2 is the right fit for our application (low viscosity, around 5 cP, flow around 60 m3/h). Target date: mid-August 2026"
+    },
+    "order_processing": {
+      "human_review_required": true,
+      "review_reason": "Delivery date is a window, not a calendar day; human to confirm. Product is not determined; cannot process the order until a model is chosen."
+    },
+    "routing": {
+      "sales_team_flag": true,
+      "sales_team_reason": "Model selection question; do not pick a datasheet winner, flag sales."
+    }
+  },
+  {
+    "source_file": "02_Email #4.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Olivier Martin",
+      "company_name": "AgroProcess Nantes SAS",
+      "product_reference": [
+        "Packo ICP2",
+        "Packo MCP2"
+      ],
+      "quantity": null,
+      "requested_delivery_date": "2026-08-12",
+      "delivery_address": "ZI des Landes, Rue de l'Industrie 18, 44300 Nantes, France",
+      "po_reference": "AGP-2026-0334",
+      "special_requirements": "Par ailleurs, pourriez-vous nous faire parvenir un devis pour le traitement de surface (électropolissage) de 5 pièces inox 316L ? Ce n'est pas urgent mais nous souhaitons planifier cela pour septembre."
+    },
+    "order_processing": {
+      "human_review_required": false,
+      "review_reason": null
+    },
+    "routing": {
+      "sales_team_flag": true,
+      "sales_team_reason": "Quote request is out of scope for intake; flag sales for parallel attention."
+    }
+  },
+  {
+    "source_file": "02_Email #5.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Henrik Petersen",
+      "company_name": "Nordjysk Mejeri A/S",
+      "product_reference": null,
+      "quantity": 2,
+      "requested_delivery_date": null,
+      "delivery_address": "our usual address",
+      "po_reference": "NJM-DK-2026-0091",
+      "special_requirements": "same pump as last time"
+    },
+    "order_processing": {
+      "human_review_required": true,
+      "review_reason": "No recognised product in the email; cannot process the order."
+    },
+    "routing": {
+      "sales_team_flag": false,
+      "sales_team_reason": null
+    }
+  },
+  {
+    "source_file": "02_Email #6.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Petra van Kleef",
+      "company_name": "Van Kleef Processing BV",
+      "product_reference": "Packo MCP3",
+      "quantity": 2,
+      "requested_delivery_date": "2026-08-08",
+      "delivery_address": "Havenstraat 44, 3011 Amsterdam, Nederland",
+      "po_reference": "VKP-2026-0612",
+      "special_requirements": "Kunt u bevestigen dat de prijs overeenkomt met onze raamovereenkomst van vorig jaar (referentie FC-2025-0034)?"
+    },
+    "order_processing": {
+      "human_review_required": false,
+      "review_reason": null
+    },
+    "routing": {
+      "sales_team_flag": true,
+      "sales_team_reason": "Pricing is out of scope for this agent; flag sales for parallel attention."
+    }
+  },
+  {
+    "source_file": "02_Email #7.txt",
+    "processed_at": "2026-08-19T09:46:44.850164+00:00",
+    "extraction": {
+      "customer_name": "Maarten de Jong",
+      "company_name": "RVS Finishing BV",
+      "product_reference": "Electropolishing (standard Ra < 0.8 µm)",
+      "quantity": 12,
+      "requested_delivery_date": null,
+      "delivery_address": "Metaalweg 7, 3001 Rotterdam, Netherlands",
+      "po_reference": "RVS-NL-2026-0551",
+      "special_requirements": "Required completion: week of 4 August 2026\nPlease confirm availability and provide pricing."
+    },
+    "order_processing": {
+      "human_review_required": true,
+      "review_reason": "Delivery date is a window, not a calendar day; human to confirm."
+    },
+    "routing": {
+      "sales_team_flag": true,
+      "sales_team_reason": "Quote request is out of scope for intake; flag sales for parallel attention. Pricing is out of scope for this agent; flag sales for parallel attention."
+    }
+  }
+]

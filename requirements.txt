@@ -1,0 +1,10 @@
+# OpenAI SDK 2.x: chat.completions.parse() + Pydantic.
+# 3.x switched the default HTTP client; stay on 2.54.0.
+
+openai==2.54.0
+pydantic==2.13.4
+python-dotenv==1.2.3
+tenacity==9.1.4
+
+# Observability. Optional at runtime via LANGSMITH_TRACING=false.
+langsmith==0.11.0
